@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const gallery = document.querySelector(".gallery");
 
   // Loop to add images from the 'images' folder
-  const numberOfImages = 50; // Assuming there are 10 images
+  const numberOfImages = 7; // Assuming there are 10 images
   const imagesFolderPath = "images/"; // Relative path to the images folder
 
   for (let i = 1; i <= numberOfImages; i++) {
